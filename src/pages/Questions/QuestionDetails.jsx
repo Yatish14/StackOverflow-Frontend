@@ -29,7 +29,7 @@ const QuestionDetails = () => {
         if( User === null )
         {
             alert('Login or Signup to Answer a Question!')
-            navigate('/Auth')
+            navigate('/StackOverflow-Frontend/Auth')
         }
         else
         {

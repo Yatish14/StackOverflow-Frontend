@@ -9,7 +9,7 @@ export const signup = ( authData, navigate) => async (dispatch) => {
         const { data } = await api.signUp(authData)
         dispatch({ type: 'AUTH', data})
         dispatch(setCurrentUser(JSON.parse(localStorage.getItem('Profile'))))
-        navigate('/')
+        navigate('/StackOverflow-Frontend')
     }
     catch(err)
     {
@@ -22,7 +22,7 @@ export const login = ( authData, navigate) => async (dispatch) => {
         const { data } = await api.logIn(authData)
         dispatch({ type: 'AUTH', data})
         dispatch(setCurrentUser(JSON.parse(localStorage.getItem('Profile'))))
-        navigate('/')
+        navigate('/StackOverflow-Frontend')
     }
     catch(error)
     {

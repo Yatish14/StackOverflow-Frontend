@@ -17,7 +17,7 @@ const Navbar = () => {
         dispatch(setCurrentUser(null))
 
         dispatch({type: 'LOGOUT'})
-        navigate('/')
+        navigate('/StackOverflow-Frontend')
 
     }
 
@@ -50,7 +50,7 @@ const Navbar = () => {
             { User === null ? 
                 <Link to = '/StackOverflow-Frontend/Auth' className='nav-item nav-links'>Log in</Link> :
                 <>
-                    <Avatar backgroundColor="#009dff" px = "10px" py = "5px" borderRadius = "50%" color="white"><Link to={`/Users/${User?.result?._id}`} style={{ color: "white", textDecoration: "none" }}>{User.result.name.charAt(0).toUpperCase()}</Link></Avatar>
+                    <Avatar backgroundColor="#009dff" px = "10px" py = "5px" borderRadius = "50%" color="white"><Link to={`/StackOverflow-Frontend/Users/${User?.result?._id}`} style={{ color: "white", textDecoration: "none" }}>{User.result.name.charAt(0).toUpperCase()}</Link></Avatar>
                     <button className='nav-item nav-links' onClick={handleLogout}>Log out</button>
                 </>
             }

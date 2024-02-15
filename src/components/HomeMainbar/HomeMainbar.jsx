@@ -14,18 +14,18 @@ const HomeMainbar = () => {
     if(user === null)
     {
         alert("Login or Signup to ask a question!")
-        navigate('/Auth')
+        navigate('/StackOverflow-Frontend/Auth')
     }
     else
     {
-      navigate('/AskQuestion')
+      navigate('/StackOverflow-Frontend/AskQuestion')
     }
   }
   return (
     <div className='main-bar'>
         <div className='main-bar-header'>
           {
-            location.pathname === '/' ? <h1>Top Questions</h1> : <h1>All Questions</h1>
+            location.pathname === '/StackOverflow-Frontend' ? <h1>Top Questions</h1> : <h1>All Questions</h1>
           }
           <button onClick = {checkAuth} className='ask-btn'>Ask Question</button>
         </div>
