@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/StackOverflow-Frontend/static/css/main.c23a20fe.css",
-    "main.js": "/StackOverflow-Frontend/static/js/main.93ec069e.js",
+    "main.js": "/StackOverflow-Frontend/static/js/main.107d112d.js",
     "static/media/Globe.svg": "/StackOverflow-Frontend/static/media/Globe.b4c9a5d99220d0b4e3024a8106e27c49.svg",
     "index.html": "/StackOverflow-Frontend/index.html",
     "static/media/search-solid.svg": "/StackOverflow-Frontend/static/media/search-solid.cc51b702c98798cd916ea5a3a8ca8b54.svg",
@@ -11,10 +11,10 @@
     "static/media/sort-down.svg": "/StackOverflow-Frontend/static/media/sort-down.903eaa19f8ed510bf2202ab80dbea7d5.svg",
     "static/media/sort-up.svg": "/StackOverflow-Frontend/static/media/sort-up.00d081851dcbaaf15930853fbdb312b6.svg",
     "main.c23a20fe.css.map": "/StackOverflow-Frontend/static/css/main.c23a20fe.css.map",
-    "main.93ec069e.js.map": "/StackOverflow-Frontend/static/js/main.93ec069e.js.map"
+    "main.107d112d.js.map": "/StackOverflow-Frontend/static/js/main.107d112d.js.map"
   },
   "entrypoints": [
     "static/css/main.c23a20fe.css",
-    "static/js/main.93ec069e.js"
+    "static/js/main.107d112d.js"
   ]
 }
