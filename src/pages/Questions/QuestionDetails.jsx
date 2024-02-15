@@ -15,7 +15,7 @@ import { deleteQuestion, voteQuestion } from '../../actions/question';
 
 const QuestionDetails = () => {
     const location = useLocation();
-    const url = 'http://localhost:3000'
+    const url = 'https://yatish14.github.io/StackOverflow-Frontend'
     const { id } = useParams();
     var questionsList = useSelector(state => state.questionsReducer)
     console.log(questionsList)
