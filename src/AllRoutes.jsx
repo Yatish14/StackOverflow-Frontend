@@ -12,14 +12,14 @@ import UsersProfile from './pages/UserProfile/UsersProfile';
 const AllRoutes = () => {
   return (
     <Routes>
-        <Route exact path='/' element={<Home/>} />
-        <Route path='/Auth' element={<Auth/>} />
-        <Route path='/Questions' element={<Questions/>} />
-        <Route path='/AskQuestion' element={<AskQuestion/>} />
-        <Route path='/Questions/:id' element={<DisplayQuestion/>} />
-        <Route path='/Tags' element={<Tags/>} />
-        <Route path='/Users' element={<Users/>} />
-        <Route path='/Users/:id' element={<UsersProfile/>} />
+        <Route exact path='/StackOverflow-Frontend/' element={<Home/>} />
+        <Route path='/StackOverflow-Frontend/Auth' element={<Auth/>} />
+        <Route path='/StackOverflow-Frontend/Questions' element={<Questions/>} />
+        <Route path='/StackOverflow-Frontend/AskQuestion' element={<AskQuestion/>} />
+        <Route path='/StackOverflow-Frontend/Questions/:id' element={<DisplayQuestion/>} />
+        <Route path='/StackOverflow-Frontend/Tags' element={<Tags/>} />
+        <Route path='/StackOverflow-Frontend/Users' element={<Users/>} />
+        <Route path='/StackOverflow-Frontend/Users/:id' element={<UsersProfile/>} />
     </Routes>
   )
 }

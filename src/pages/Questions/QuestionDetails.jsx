@@ -94,7 +94,7 @@ const QuestionDetails = () => {
                                         </div>
                                         <div>
                                             <p>asked {moment(question.askedOn).fromNow()} </p>
-                                            <Link to = {`/Users/${question.userId}`} className='user-link' style={{color: 'rgb(0, 157, 255)'}}>
+                                            <Link to = {`/StackOverflow-Frontend/Users/${question.userId}`} className='user-link' style={{color: 'rgb(0, 157, 255)'}}>
                                                 <Avatar backgroundColor="orange" px = "8px" py = "5px">{question.userPosted.charAt(0).toLocaleUpperCase()}</Avatar>
                                                 <div>
                                                     {
@@ -126,10 +126,10 @@ const QuestionDetails = () => {
                             <p>Browse other Question tagged 
                                 {
                                     question.questionTags.map((tag) => (
-                                        <Link to='/Tags' key={tag} className='ans-tags'> {tag} </Link>
+                                        <Link to='/StackOverflow-Frontend/Tags' key={tag} className='ans-tags'> {tag} </Link>
                                     ))
                                 } 
-                                <Link to='/AskQuestion' style={{textDecoration: "none", color: "rgb(0, 157, 255)"}}>or ask your own question.</Link>
+                                <Link to='/StackOverflow-Frontend/AskQuestion' style={{textDecoration: "none", color: "rgb(0, 157, 255)"}}>or ask your own question.</Link>
                             </p>
                         </section>
                     </div>
